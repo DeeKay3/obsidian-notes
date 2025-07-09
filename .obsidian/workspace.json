@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/General/Adding MicroK8s as Cloud.md",
+                "file": "Juju/Charms/Indico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adding MicroK8s as Cloud"
+              "title": "Indico"
             }
           }
         ],
@@ -221,29 +221,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c75cb585cb2ff35",
+  "active": "53e50a09e9e489d1",
   "lastOpenFiles": [
-    "Juju/Charms/Indico.md",
-    "Useful Tools.md",
-    "Docker.md",
-    "Juju/General/Deploy local packed charm.md",
-    "Untitled.md",
-    "Eng Sprint Notes.md",
-    "Bastion.md",
     "Juju/Charms/Gateway-api-integrator.md",
     "Juju/Charms/Discourse.md",
+    "Juju/Charms/Indico.md",
     "Juju/Charms/Mattermost.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/General/Connecting to VPN with openvpn.md",
-    "Linux - Terminal/Curl Notes.md",
-    "Linux - Terminal/Access env variable of process.md",
-    "Vale.md",
+    "Juju/General/Deploy local packed charm.md",
     "Juju/General/Testing.md",
-    "Linux - Terminal",
-    "Kubernetes/Common Commands.md",
     "Juju/Juju Doctor tutorial.md",
+    "Kubernetes/Common Commands.md",
+    "Linux - Terminal/Access env variable of process.md",
+    "Linux - Terminal/Curl Notes.md",
+    "Bastion.md",
+    "Vale.md",
+    "Useful Tools.md",
+    "Untitled.md",
+    "Docker.md",
+    "Eng Sprint Notes.md",
+    "Untitled.canvas",
+    "Linux - Terminal",
     "Juju/Charms",
     "Juju/General",
     "Kubernetes",

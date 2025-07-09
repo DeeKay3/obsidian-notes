@@ -34,4 +34,3 @@ Juju should detect microk8s and add it as cloud. Bootstrap controller:
 ```
 juju bootstrap microk8s microk8s-controller
 ```
-Arbitrary change.
