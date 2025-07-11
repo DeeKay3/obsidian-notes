@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "Juju/Charms/Discourse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "Discourse"
             }
           }
         ],
@@ -223,9 +223,10 @@
   },
   "active": "53e50a09e9e489d1",
   "lastOpenFiles": [
+    "Linux - Terminal/Curl Notes.md",
+    "Juju/Charms/Indico.md",
     "Juju/Charms/Gateway-api-integrator.md",
     "Juju/Charms/Discourse.md",
-    "Juju/Charms/Indico.md",
     "Juju/Charms/Mattermost.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
@@ -236,7 +237,6 @@
     "Juju/Juju Doctor tutorial.md",
     "Kubernetes/Common Commands.md",
     "Linux - Terminal/Access env variable of process.md",
-    "Linux - Terminal/Curl Notes.md",
     "Bastion.md",
     "Vale.md",
     "Useful Tools.md",
