@@ -14,6 +14,10 @@ Create admin:
 ```
 juju run discourse-k8s/0 create-user admin=true email=email@example.com
 ```
+Add this to `\etc\hosts`:
+```
+127.0.0.1 discourse-k8s
+```
 
 ### Pass config option
 I needed to pass `max_category_nesting` and for discourse, it is passed through environment variables, add it here:
