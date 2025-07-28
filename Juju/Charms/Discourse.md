@@ -1,4 +1,4 @@
-Deploy:
+juju Deploy:
 ```auto
 juju deploy redis-k8s --channel latest/edge
 juju deploy postgresql-k8s --channel 14/stable --trust
