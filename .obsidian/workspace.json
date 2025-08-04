@@ -209,10 +209,10 @@
   },
   "active": "53e50a09e9e489d1",
   "lastOpenFiles": [
+    "Juju/Charms/Discourse.md",
+    "Juju/Charms/PostgreSQL.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/Charms/Mattermost.md",
-    "Juju/Charms/PostgreSQL.md",
-    "Juju/Charms/Discourse.md",
     "Vale.md",
     "Bastion.md",
     "Achievements for Promotion Cycle.md",
