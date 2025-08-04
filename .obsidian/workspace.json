@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/PostgreSQL.md",
+                "file": "Important Links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PostgreSQL"
+              "title": "Important Links"
             }
           }
         ],
@@ -210,6 +210,7 @@
   "active": "53e50a09e9e489d1",
   "lastOpenFiles": [
     "Juju/Charms/Discourse.md",
+    "Important Links.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/Charms/Mattermost.md",
