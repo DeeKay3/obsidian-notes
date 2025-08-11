@@ -68,3 +68,28 @@ Attach resources:
 juju attach-resource indico indico-image=localhost:32000/indico:latest
 juju attach-resource indico indico-nginx-image=localhost:32000/indico-nginx:latest
 ```
+
+# INDICO DEVELOPMENT APP INSTALLATION
+Follow this URL:
+```
+https://docs.getindico.io/en/stable/installation/development/#install-dev
+```
+
+### For running after installation (included in guide):
+
+Activate env:
+
+```
+source ./env/bin/activate
+```
+
+You will need two shells running in parallel. The first one will run the webpack watcher, which compiles the JavaScript and style assets every time you change them:
+
+```
+./bin/maintenance/build-assets.py indico --dev --watch
+```
+
+On the second one we’ll run the Indico Development server:
+```
+indico run -h <your-hostname> -q --enable-evalex
+```
