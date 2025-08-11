@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Important Links.md",
+                "file": "Linux - Terminal/Curl Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Important Links"
+              "title": "Curl Notes"
             }
           }
         ],
@@ -209,12 +209,16 @@
   },
   "active": "53e50a09e9e489d1",
   "lastOpenFiles": [
-    "Juju/Charms/Discourse.md",
+    "Linux - Terminal/Access env variable of process.md",
+    "Kubernetes/Common Commands.md",
+    "Vale.md",
+    "Useful Tools.md",
+    "Untitled.md",
     "Important Links.md",
+    "Juju/Charms/Discourse.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/Charms/Mattermost.md",
-    "Vale.md",
     "Bastion.md",
     "Achievements for Promotion Cycle.md",
     "Linux - Terminal/Curl Notes.md",
@@ -225,10 +229,6 @@
     "Juju/General/Deploy local packed charm.md",
     "Juju/General/Testing.md",
     "Juju/Juju Doctor tutorial.md",
-    "Kubernetes/Common Commands.md",
-    "Linux - Terminal/Access env variable of process.md",
-    "Useful Tools.md",
-    "Untitled.md",
     "Docker.md",
     "Eng Sprint Notes.md",
     "Untitled.canvas",
