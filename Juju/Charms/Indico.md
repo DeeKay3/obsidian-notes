@@ -62,7 +62,10 @@ sudo rockcraft.skopeo --insecure-policy copy   --dest-tls-verify=false   oci-arc
 sudo rockcraft.skopeo --insecure-policy copy   --dest-tls-verify=false   oci-archive:indico-nginx_1.0_amd64.rock   docker://localhost:32000/indico-nginx:latest
 ```
 Test password:
-`dplyLocal2904`
+```
+dplyLocaldevel2904
+```
+
 Attach resources:
 ```
 juju attach-resource indico indico-image=localhost:32000/indico:latest
