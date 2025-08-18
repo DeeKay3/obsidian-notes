@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "Juju/General/Adding MicroK8s as Cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "Adding MicroK8s as Cloud"
             }
           }
         ],
@@ -195,9 +195,12 @@
   },
   "active": "bc8d5563eab2decd",
   "lastOpenFiles": [
+    "Juju/General/Adding MicroK8s as Cloud.md",
+    "Juju/Charms/Indico.md",
+    "Juju/Charms/Mattermost.md",
+    "Juju/Charms/PostgreSQL.md",
     "Juju/Charms/Discourse.md",
     "Indico Development App Installation.md",
-    "Juju/Charms/Indico.md",
     "Linux - Terminal/Curl Notes.md",
     "Linux - Terminal/Access env variable of process.md",
     "Kubernetes/Common Commands.md",
@@ -205,9 +208,6 @@
     "Useful Tools.md",
     "Untitled.md",
     "Important Links.md",
-    "Juju/Charms/PostgreSQL.md",
-    "Juju/General/Adding MicroK8s as Cloud.md",
-    "Juju/Charms/Mattermost.md",
     "Bastion.md",
     "Achievements for Promotion Cycle.md",
     "Juju/Charms/Gateway-api-integrator.md",
