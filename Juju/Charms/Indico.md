@@ -96,3 +96,7 @@ On the second one we’ll run the Indico Development server:
 ```
 indico run -h <your-hostname> -q --enable-evalex
 ```
+List plugins:
+```
+indico setup list-plugins
+```
