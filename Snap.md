@@ -1,0 +1,1 @@
+- To clean cache for snaps, go to `/var/lib/snapd/cache` and delete anything without issue.

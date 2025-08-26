@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "Snap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "Snap"
             }
           }
         ],
@@ -196,8 +196,12 @@
   },
   "active": "bc8d5563eab2decd",
   "lastOpenFiles": [
-    "Juju/General/Adding MicroK8s as Cloud.md",
+    "Docker.md",
+    "Snap.md",
+    "Untitled",
+    "Juju/General/Testing.md",
     "Juju/Charms/Indico.md",
+    "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/Charms/Mattermost.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/Charms/Discourse.md",
@@ -215,9 +219,7 @@
     "Juju/General/Adding Canonical k8s as Cloud.md",
     "Juju/General/Connecting to VPN with openvpn.md",
     "Juju/General/Deploy local packed charm.md",
-    "Juju/General/Testing.md",
     "Juju/Juju Doctor tutorial.md",
-    "Docker.md",
     "Eng Sprint Notes.md",
     "Untitled.canvas",
     "Linux - Terminal",
@@ -226,7 +228,6 @@
     "Kubernetes",
     "Juju",
     "Test2.md",
-    "create a link.md",
-    "Welcome.md"
+    "create a link.md"
   ]
 }
