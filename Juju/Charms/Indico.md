@@ -100,3 +100,38 @@ List plugins:
 ```
 indico setup list-plugins
 ```
+
+Fields to add (DELETE THIS):
+```
+The EA team has requested the addition of new fields on the user profile for Indico to avoid having to enter them on every event registration.
+
+The fields are the following:
+
+- Employee ID 
+    
+- Country
+    
+- T-shirt Size 
+    
+- Allergies 
+    
+- CAP details
+    
+- Group
+    
+- Product
+    
+- Pronouns (optional)
+    
+- Legal name
+    
+
+Ideally we would be syncing the following from the LDAP.
+
+- Pronouns (optional)
+    
+- Legal name
+    
+
+We have to find out if Indico supports this out of the box and, if not, contribute the changes to add these fields upstream.
+```

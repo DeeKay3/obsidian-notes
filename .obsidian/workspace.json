@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker.md",
+                "file": "Juju/Charms/Indico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Indico"
             }
           }
         ],
@@ -196,9 +196,9 @@
   },
   "active": "bc8d5563eab2decd",
   "lastOpenFiles": [
+    "Docker.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
-    "Docker.md",
     "Juju/Charms/Discourse.md",
     "Snap.md",
     "Untitled",
