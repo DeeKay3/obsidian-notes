@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "Useful Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "Useful Tools"
             }
           }
         ],
@@ -196,6 +196,7 @@
   },
   "active": "bc8d5563eab2decd",
   "lastOpenFiles": [
+    "Juju/Charms/Indico.md",
     "Docker.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
@@ -203,7 +204,6 @@
     "Snap.md",
     "Untitled",
     "Juju/General/Testing.md",
-    "Juju/Charms/Indico.md",
     "Juju/Charms/Mattermost.md",
     "Juju/Charms/PostgreSQL.md",
     "Indico Development App Installation.md",
