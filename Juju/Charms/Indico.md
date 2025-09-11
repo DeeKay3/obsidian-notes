@@ -135,11 +135,3 @@ Ideally we would be syncing the following from the LDAP.
 
 We have to find out if Indico supports this out of the box and, if not, contribute the changes to add these fields upstream.
 ```
-Hooks ( DELETE THIS ):
-```
-RH process signal received
-Sender: <class 'indico.modules.events.registration.controllers.display.RHRegistrationForm'>
-Kwargs: {'rh': <indico.modules.events.registration.controllers.display.RHRegistrationForm object at 0x7692c7de3e00>}
-
-
-```
