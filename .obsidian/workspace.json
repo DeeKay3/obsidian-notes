@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "Juju/Charms/Discourse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "Discourse"
             }
           }
         ],
@@ -196,13 +196,16 @@
   },
   "active": "bc8d5563eab2decd",
   "lastOpenFiles": [
-    "Useful Tools.md",
     "Juju/Charms/Indico.md",
+    "Juju/Charms/Discourse.md",
+    "Important Links.md",
+    "Snap.md",
+    "Untitled.md",
+    "Useful Tools.md",
+    "Eng Sprint Notes.md",
     "Docker.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
-    "Juju/Charms/Discourse.md",
-    "Snap.md",
     "Untitled",
     "Juju/General/Testing.md",
     "Juju/Charms/Mattermost.md",
@@ -212,15 +215,12 @@
     "Linux - Terminal/Access env variable of process.md",
     "Kubernetes/Common Commands.md",
     "Vale.md",
-    "Untitled.md",
-    "Important Links.md",
     "Bastion.md",
     "Achievements for Promotion Cycle.md",
     "Juju/Charms/Gateway-api-integrator.md",
     "Juju/General/Connecting to VPN with openvpn.md",
     "Juju/General/Deploy local packed charm.md",
     "Juju/Juju Doctor tutorial.md",
-    "Eng Sprint Notes.md",
     "Untitled.canvas",
     "Linux - Terminal",
     "Juju/Charms",
