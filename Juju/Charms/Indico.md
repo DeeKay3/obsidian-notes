@@ -135,3 +135,6 @@ Ideally we would be syncing the following from the LDAP.
 
 We have to find out if Indico supports this out of the box and, if not, contribute the changes to add these fields upstream.
 ```
+
+### ToDo:
+- Refactor Indico terraform so that it has its own modules instead of the modules from the launchpad. Spec for this: https://docs.google.com/document/d/1EG71A2pJ244PQRaGVzGj7Mx2B_bzE4U_OSqx4eeVI1E/edit?tab=t.0
