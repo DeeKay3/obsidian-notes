@@ -1,3 +1,4 @@
+HOLY BIBLE: https://docs.google.com/document/d/1UoI6HMk0uhbe6I9LtyisRvnj9dJ5_OsOSqRdzjyRpvw/edit?tab=t.0#heading=h.6y09d6388wwe
 juju Deploy:
 ```auto
 juju deploy redis-k8s --channel latest/edge
@@ -24,3 +25,5 @@ I needed to pass `max_category_nesting` and for discourse, it is passed through 
 https://github.com/canonical/discourse-k8s-operator/blob/033738328816672716acb1927bc745b8dd5a56e4/src/charm.py#L442
 
 Configs have `DISCOURSE_` prefix, so for `max_category_nesting`, it would be `DISCOURSE_MAX_CATEGORY_NESTING` and then get the value from charm config.
+
+
