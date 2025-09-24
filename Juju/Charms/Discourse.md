@@ -27,3 +27,7 @@ https://github.com/canonical/discourse-k8s-operator/blob/033738328816672716acb19
 Configs have `DISCOURSE_` prefix, so for `max_category_nesting`, it would be `DISCOURSE_MAX_CATEGORY_NESTING` and then get the value from charm config.
 
 
+### Discourse upgrade PRs ToDos
+
+
+
