@@ -44,7 +44,7 @@ juju config s3-integrator \
     region="us-west-2"
 ```
 ```bash
-juju run s3-integrator/leader sync-s3-credentials access-key=AKIARI75FXOVBHHPDQN3 secret-key=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
+juju run s3-integrator/leader sync-s3-credentials access-key={access_key} secret-key={secret_key}
 ```
 ```
 juju integrate indico s3-integrator
