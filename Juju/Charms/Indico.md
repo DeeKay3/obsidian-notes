@@ -138,3 +138,7 @@ We have to find out if Indico supports this out of the box and, if not, contribu
 
 ### ToDo:
 - Refactor Indico terraform so that it has its own modules instead of the modules from the launchpad. Spec for this: https://docs.google.com/document/d/1EG71A2pJ244PQRaGVzGj7Mx2B_bzE4U_OSqx4eeVI1E/edit?tab=t.0
+
+### meeting notes
+- Seperate legal 
+- 
