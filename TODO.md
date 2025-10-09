@@ -1,0 +1,3 @@
+- Ninja PR cleanups until Monday morn
+- PDP until Tuesday morn
+- Discourse OIDC work
