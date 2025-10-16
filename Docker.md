@@ -24,3 +24,15 @@ Attach resources ( example is for indico ):
 juju attach-resource indico indico-image=localhost:32000/indico:latest
 juju attach-resource indico indico-nginx-image=localhost:32000/indico-nginx:latest
 ```
+
+To list pushed images:
+```
+curl http://localhost:32000/v2/_catalog
+```
+
+Check specific image tags:
+```
+curl http://localhost:32000/v2/{myapp}/tags/list
+
+
+```
