@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Discourse.md",
+                "file": "Useful Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Discourse"
+              "title": "Useful Tools"
             }
           }
         ],
@@ -224,9 +224,9 @@
   },
   "active": "6769b8779602b809",
   "lastOpenFiles": [
+    "Juju/Charms/Discourse.md",
     "Juju/Charms/IAM Bundle.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
-    "Juju/Charms/Discourse.md",
     "Docker.md",
     "Multipass.md",
     "Eng Sprint Notes.md",
