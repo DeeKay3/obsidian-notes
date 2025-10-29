@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastion.md",
+                "file": "Problems & Fixes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bastion"
+              "title": "Problems & Fixes"
             }
           }
         ],
@@ -224,6 +224,9 @@
   },
   "active": "6769b8779602b809",
   "lastOpenFiles": [
+    "Juju/Charms/Indico.md",
+    "Problems & Fixes.md",
+    "Bastion.md",
     "Useful Tools.md",
     "Juju/Charms/Discourse.md",
     "Juju/Charms/IAM Bundle.md",
@@ -232,11 +235,9 @@
     "Multipass.md",
     "Eng Sprint Notes.md",
     "TODO.md",
-    "Juju/Charms/Indico.md",
     "Juju/Charms/Gateway-api-integrator.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/Charms/Mattermost.md",
-    "Bastion.md",
     "conflict-files-obsidian-git.md",
     "Important Links.md",
     "Snap.md",
@@ -250,7 +251,6 @@
     "Kubernetes/Common Commands.md",
     "Vale.md",
     "Achievements for Promotion Cycle.md",
-    "Juju/General/Connecting to VPN with openvpn.md",
     "Untitled.canvas",
     "Linux - Terminal",
     "Juju/Charms",
