@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Discourse.md",
+                "file": "Juju/General/Adding Canonical k8s as Cloud.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Discourse"
+              "title": "Adding Canonical k8s as Cloud"
             }
           }
         ],
@@ -224,18 +224,22 @@
   },
   "active": "6769b8779602b809",
   "lastOpenFiles": [
-    "Bastion.md",
+    "Juju/General/Adding MicroK8s as Cloud.md",
+    "Juju/General/Connecting to VPN with openvpn.md",
+    "Juju/General/Deploy local packed charm.md",
+    "Juju/General/Testing.md",
+    "Juju/Juju Doctor tutorial.md",
+    "Juju/Charms/IAM Bundle.md",
+    "Juju/Charms/Gateway-api-integrator.md",
     "Juju/Charms/Discourse.md",
+    "Bastion.md",
     "Problems & Fixes.md",
     "Juju/Charms/Indico.md",
     "Useful Tools.md",
-    "Juju/Charms/IAM Bundle.md",
-    "Juju/General/Adding MicroK8s as Cloud.md",
     "Docker.md",
     "Multipass.md",
     "Eng Sprint Notes.md",
     "TODO.md",
-    "Juju/Charms/Gateway-api-integrator.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/Charms/Mattermost.md",
     "conflict-files-obsidian-git.md",
@@ -244,13 +248,9 @@
     "Untitled.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
     "Untitled",
-    "Juju/General/Testing.md",
     "Indico Development App Installation.md",
     "Linux - Terminal/Curl Notes.md",
     "Linux - Terminal/Access env variable of process.md",
-    "Kubernetes/Common Commands.md",
-    "Vale.md",
-    "Achievements for Promotion Cycle.md",
     "Untitled.canvas",
     "Linux - Terminal",
     "Juju/Charms",
