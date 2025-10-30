@@ -38,3 +38,7 @@ https://idp.internal.com/iam-hydra/.well-known/openid-configuration
 1qcN~VQNf9ydAs8GXc2hP_gYUu
 openid email
 
+Issues to solve
+1) tlsv1 unrecognized name (SSL alert number 112)
+	1) add to etc/hosts `10.64.140.43 idp.internal.com`. Try with external idp and see if this happens. If not, no need to fix via charm.
+2) certificate verify failed 
