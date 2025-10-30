@@ -32,3 +32,9 @@ Configs have `DISCOURSE_` prefix, so for `max_category_nesting`, it would be `DI
 - Check migrations and see if they need changes. Check the first migration applied in the new discourse version of core code and make necessary changes accordingly. Example PR:
 https://github.com/canonical/discourse-k8s-operator/commit/dbfe37a9996beddcff0adcc6d05233f97b5b2b67
 
+# TEMP - DELETE LATER
+https://idp.internal.com/iam-hydra/.well-known/openid-configuration
+3592c8dd-28eb-4e81-ab74-88576a9fb332
+1qcN~VQNf9ydAs8GXc2hP_gYUu
+openid email
+

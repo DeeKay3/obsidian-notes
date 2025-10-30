@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problems & Fixes.md",
+                "file": "Juju/Charms/Discourse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problems & Fixes"
+              "title": "Discourse"
             }
           }
         ],
@@ -224,11 +224,11 @@
   },
   "active": "6769b8779602b809",
   "lastOpenFiles": [
-    "Juju/Charms/Indico.md",
-    "Problems & Fixes.md",
     "Bastion.md",
-    "Useful Tools.md",
     "Juju/Charms/Discourse.md",
+    "Problems & Fixes.md",
+    "Juju/Charms/Indico.md",
+    "Useful Tools.md",
     "Juju/Charms/IAM Bundle.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Docker.md",
