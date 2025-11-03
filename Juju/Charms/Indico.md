@@ -144,13 +144,47 @@ We have to find out if Indico supports this out of the box and, if not, contribu
 1- Create env in PS7
 	1- Request from IS the environment
 	2- Migrate terraform to github from launchpad.
+	3- Make sure that indico integration tests run in Canonical K8s successfully.
 2- Upgrade and migrate from PS5 to PS7
 	1- Use DB-as-a-service: https://canonical-information-systems-documentation.readthedocs-hosted.com/en/latest/products/managedPostgreSQL/how-to/request/
-	**2- Migrate the data from PS5 to PS7.**  ( don't know how to )
+	**2- a) Migrate the data from PS5 to PS7.**  ( don't know how to )
 	```
 	current indico database 
 	14.8 active 3 postgresql 14/edge 318
 	```
 	We need to figure out what Postgres version we get from IS DB service. In stg we have an deployed app with 14.19.
 	3- Point the new environment to `events.canonical.com`
-	4- Make sure backup is handled. Check if DB-service has it already or not. We need to test migration before doing it in actual environment. 
+	4- Make sure backup is handled. Check if DB-service has it already or not. We need to test data migration before doing it in actual environment. ( dump and **restore**) 
+	5- Get files in existing s3 buckets to new environment. Make sure the same files are working when upgrading from 3.3.1 to 3.3.8.
+	6- Make sure to check new Redis is also working. 
+
+
+PS5 Prod juju status output:
+```
+Model            Controller    Cloud/Region             Version  SLA          Timestamp
+prod-events-k8s  prodstack-is  k8s-is-external/default  2.9.49   unsupported  13:43:02Z
+
+SAAS                Status       Store         URL
+grafana-dashboards  active       prodstack-is  admin/prod-cos-is-devops.grafana-dashboards
+loki-logging        active       prodstack-is  admin/prod-cos-is-devops.loki-logging
+pg                  active       prodstack-is  admin/prod-events-db.pg
+prometheus-scrape   active       prodstack-is  admin/prod-cos-is-devops.prometheus-scrape
+saml-integrator     maintenance  local         admin/prod-saml-integrator-k8s-ps5.saml-integrator
+
+App                       Version  Status   Scale  Charm                     Channel        Rev  Address      Exposed  Message
+indico                    3.3.1    active       2  indico                    latest/stable  213  10.85.1.111  no       
+nginx-ingress-integrator  25.3.0   active       1  nginx-ingress-integrator  latest/stable   81  10.85.1.109  no       
+redis-broker              7.0.4    active       1  redis-k8s                 latest/edge     24  10.85.0.193  no       
+redis-cache               7.0.4    active       1  redis-k8s                 latest/edge     24  10.85.0.106  no       
+s3-integrator                      waiting      1  s3-integrator             latest/edge     18  10.85.1.69   no       waiting for units to settle down
+smtp-integrator                    active       1  smtp-integrator           latest/stable   10  10.85.0.145  no       
+
+Unit                         Workload     Agent  Address       Ports  Message
+indico/0                     active       idle   10.86.25.19          
+indico/1*                    active       idle   10.86.64.229         
+nginx-ingress-integrator/0*  active       idle   10.86.80.179         
+redis-broker/0*              active       idle   10.86.73.207         
+redis-cache/0*               active       idle   10.86.93.209         
+s3-integrator/0*             maintenance  idle   10.86.73.202         
+smtp-integrator/0*           active       idle   10.86.73.204 
+```
