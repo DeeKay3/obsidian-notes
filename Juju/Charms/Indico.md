@@ -141,4 +141,10 @@ We have to find out if Indico supports this out of the box and, if not, contribu
 
 # Migration Steps:
 
-1- 
+1- Create env in PS7
+	1- Request from IS the environment
+	2- Migrate terraform to github from launchpad.
+2- Upgrade and migrate from PS5 to PS7
+	1- Use DB-as-a-service: https://canonical-information-systems-documentation.readthedocs-hosted.com/en/latest/products/managedPostgreSQL/how-to/request/
+	**2- Migrate the data from PS5 to PS7.**  ( don't know how to )
+	3- Point the new environment to `events.canonical.com` 
