@@ -147,4 +147,10 @@ We have to find out if Indico supports this out of the box and, if not, contribu
 2- Upgrade and migrate from PS5 to PS7
 	1- Use DB-as-a-service: https://canonical-information-systems-documentation.readthedocs-hosted.com/en/latest/products/managedPostgreSQL/how-to/request/
 	**2- Migrate the data from PS5 to PS7.**  ( don't know how to )
-	3- Point the new environment to `events.canonical.com` 
+	```
+	current indico database 
+	14.8 active 3 postgresql 14/edge 318
+	```
+	We need to figure out what Postgres version we get from IS DB service. In stg we have an deployed app with 14.19.
+	3- Point the new environment to `events.canonical.com`
+	4- Make sure backup is handled. Check if DB-service has it already or not. We need to test migration before doing it in actual environment. 
