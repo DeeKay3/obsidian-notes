@@ -49,3 +49,25 @@ Issues to solve
 	   ```
 	3) Put this in "usr/local/share/ca-certificates" in discourse container of discourse app, then run "update-ca-certificates"
 	4) Check if this happens with external IDP. If not, no need to fix via charm.
+
+```
+echo "saml_enabled: true
+
+calendar_enabled: true
+
+data_explorer_enabled: true
+
+discourse_gamification_enabled: true
+
+chat_integration_enabled: true
+
+solved_enable: true" | bin/bundle exec rake site_settings:import
+```
+
+```
+bin/rails runner 'SiteSetting.all_settings.each { |s| puts "#{s[:setting]} = #{s[:value]}" }' 
+```
+
+```
+bin/rails runner 'Discourse.plugins.each { |p| defs = p.respond_to?(:setting_definitions) ? p.setting_definitions.keys : (p.metadata["settings"]&.keys rescue []); puts "[#{p.name}] #{defs.join(", ")}" }'
+```
