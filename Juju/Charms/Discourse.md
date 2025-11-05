@@ -61,7 +61,7 @@ discourse_gamification_enabled: true
 
 chat_integration_enabled: true
 
-solved_enable: true" | bin/bundle exec rake site_settings:import
+solved_enabled: true" | bin/bundle exec rake site_settings:import
 ```
 
 ```
