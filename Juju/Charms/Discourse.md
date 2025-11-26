@@ -49,7 +49,8 @@ Issues to solve
 	   ```
 	3) Put this in "usr/local/share/ca-certificates" in discourse container of discourse app, then run "update-ca-certificates"
 	4) Check if this happens with external IDP. If not, no need to fix via charm.
-
+3) OIDC Log: Fetching discovery document raised error Faraday::ConnectionFailed FinalDestination: all resolved IPs were disallowed
+	1) 
 ```
 echo "saml_enabled: true
 
@@ -71,3 +72,24 @@ bin/rails runner 'SiteSetting.all_settings.each { |s| puts "#{s[:setting]} = #{s
 ```
 bin/rails runner 'Discourse.plugins.each { |p| defs = p.respond_to?(:setting_definitions) ? p.setting_definitions.keys : (p.metadata["settings"]&.keys rescue []); puts "[#{p.name}] #{defs.join(", ")}" }'
 ```
+password: 1nz0QU10E19lHi0A
+user: email@example.com
+
+    application-data:
+      audience: '[]'
+      grant_types: '["authorization_code"]'
+      redirect_uri: https://test.discourse.com/auth/hydra/callback
+      scope: openid email
+      token_endpoint_auth_method: client_secret_basic
+
+application-data:
+      authorization_endpoint: https://10.64.140.43/iam-hydra/oauth2/auth
+      client_id: 04bbf02d-f534-441f-bb68-0bc56c0157ef
+      client_secret_id: secret://458b51bb-1d2d-4c52-83f8-bb682db98075/d4jfvovmp25c765pbcc0
+      introspection_endpoint: http://hydra.iam.svc.cluster.local:4445/admin/oauth2/introspect
+      issuer_url: https://10.64.140.43/iam-hydra
+      jwks_endpoint: https://10.64.140.43/iam-hydra/.well-known/jwks.json
+      jwt_access_token: "True"
+      scope: openid profile email phone
+      token_endpoint: https://10.64.140.43/iam-hydra/oauth2/token
+      userinfo_endpoint: https://10.64.140.43/iam-hydra/userinfo
