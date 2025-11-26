@@ -50,7 +50,7 @@ Issues to solve
 	3) Put this in "usr/local/share/ca-certificates" in discourse container of discourse app, then run "update-ca-certificates"
 	4) Check if this happens with external IDP. If not, no need to fix via charm.
 3) OIDC Log: Fetching discovery document raised error Faraday::ConnectionFailed FinalDestination: all resolved IPs were disallowed
-	1) 
+	1) Go to Admin
 ```
 echo "saml_enabled: true
 
