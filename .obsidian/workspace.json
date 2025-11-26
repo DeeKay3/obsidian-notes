@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastion.md",
+                "file": "Juju/Charms/Discourse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bastion"
+              "title": "Discourse"
             }
           }
         ],
@@ -224,6 +224,7 @@
   },
   "active": "6769b8779602b809",
   "lastOpenFiles": [
+    "Bastion.md",
     "Achievements for Promotion Cycle.md",
     "Juju/Charms/Discourse.md",
     "Juju/Charms/IAM Bundle.md",
@@ -242,7 +243,6 @@
     "Multipass.md",
     "Important Links.md",
     "Docker.md",
-    "Bastion.md",
     "Juju/Juju Doctor tutorial.md",
     "Useful Tools.md",
     "Eng Sprint Notes.md",
