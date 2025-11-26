@@ -45,12 +45,17 @@ Issues to solve
 	1)  Run this to get the ca.crt from traefik:
 	2) 
 	   ```
-	   juju show-unit traefik-public/0 --format=json | jq -r '.[]."relation-info []?."application-data".certificates | fromjson[0].ca'
+	   juju show-unit traefik-public/0 --format=json | jq -r '.[]."relation-info"[]?."application-data".certificates | fromjson[0].ca'
 	   ```
 	3) Put this in "usr/local/share/ca-certificates" in discourse container of discourse app, then run "update-ca-certificates"
 	4) Check if this happens with external IDP. If not, no need to fix via charm.
 3) OIDC Log: Fetching discovery document raised error Faraday::ConnectionFailed FinalDestination: all resolved IPs were disallowed
-	1) Go to Admin
+	1) Go to Admin Panel, add the following ( or whatever svc and ip is being used ) to "Allowed internal hosts":
+		```
+		hydra.iam.svc.cluster.local
+		10.64.140.43
+		```
+
 ```
 echo "saml_enabled: true
 
