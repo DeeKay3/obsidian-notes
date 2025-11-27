@@ -77,8 +77,9 @@ bin/rails runner 'SiteSetting.all_settings.each { |s| puts "#{s[:setting]} = #{s
 ```
 bin/rails runner 'Discourse.plugins.each { |p| defs = p.respond_to?(:setting_definitions) ? p.setting_definitions.keys : (p.metadata["settings"]&.keys rescue []); puts "[#{p.name}] #{defs.join(", ")}" }'
 ```
-password: 1nz0QU10E19lHi0A
+password: BbEa0m8jkyI5dUDK
 user: email@example.com
+
 
     application-data:
       audience: '[]'
@@ -98,3 +99,6 @@ application-data:
       scope: openid profile email phone
       token_endpoint: https://10.64.140.43/iam-hydra/oauth2/token
       userinfo_endpoint: https://10.64.140.43/iam-hydra/userinfo
+
+Ov23lilcicm26fpjwUmG
+f2270e1ad2818d26b5cd3d993d6798adc7a50fc9
