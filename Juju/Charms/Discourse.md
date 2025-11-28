@@ -102,3 +102,13 @@ application-data:
 
 Ov23lilcicm26fpjwUmG
 f2270e1ad2818d26b5cd3d993d6798adc7a50fc9
+
+juju config oauth-external-idp-integrator \
+client_id="jWwSUtFNLXrNb1EoHaVgSdL57oCh81KT" \
+client_secret="6VZJgEJt2X4BzckIrfZNWxN3q2LYKnvlD92_GA1Gosk5LPMzkO69KFt_r8uaeYVk" \
+issuer_url="https://dev-trwh15omio3lnvzp.us.auth0.com/" \
+authorization_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/authorize" \
+token_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/oauth/token" \
+userinfo_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/userinfo" \
+jwks_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/.well-known/jwks.json" \
+scope="openid email"
