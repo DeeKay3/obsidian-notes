@@ -112,3 +112,15 @@ token_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/oauth/token" \
 userinfo_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/userinfo" \
 jwks_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/.well-known/jwks.json" \
 scope="openid email"
+
+juju run hydra/0 create-oauth-client scope=["openid",  "email"] redirect-uris=["https://test.discourse.com/auth/oidc/callback"] grant-types=["authorization_code"] token-endpoint-auth-method="client_secret_basic"
+client-id: fc3da649-2c56-4550-8f9e-4f17373d4680
+client-secret: Nq4OtGVR0YOX0H_OFHEoedUgu2
+client-uri: ""
+contacts: '[]'
+grant-types: '[''authorization_code'']'
+name: ""
+redirect-uris: '[''https://test.discourse.com/auth/oidc/callback'']'
+response-types: '[''code'']'
+scope: '[''openid'', ''email'']'
+token-endpoint-auth-method: client_secret_basic
