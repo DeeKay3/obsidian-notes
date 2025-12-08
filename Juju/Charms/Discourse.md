@@ -107,12 +107,13 @@ f2270e1ad2818d26b5cd3d993d6798adc7a50fc9
 juju config oauth-external-idp-integrator \
 client_id="jWwSUtFNLXrNb1EoHaVgSdL57oCh81KT" \
 client_secret="6VZJgEJt2X4BzckIrfZNWxN3q2LYKnvlD92_GA1Gosk5LPMzkO69KFt_r8uaeYVk" \
-issuer_url="https://dev-trwh15omio3lnvzp.us.auth0.com/" \
+issuer_url="https://dev-trwh15omio3lnvzp.us.auth0.com" \
 authorization_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/authorize" \
 token_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/oauth/token" \
 userinfo_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/userinfo" \
 jwks_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/.well-known/jwks.json" \
 scope="openid email"
+juju config oauth-external-idp-integrator introspection_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/userinfo"
 
 juju run hydra/0 create-oauth-client scope=["openid",  "email"] redirect-uris=["https://test.discourse.com/auth/oidc/callback"] grant-types=["authorization_code"] token-endpoint-auth-method="client_secret_basic"
 client-id: fc3da649-2c56-4550-8f9e-4f17373d4680
