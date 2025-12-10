@@ -188,3 +188,37 @@ redis-cache/0*               active       idle   10.86.93.209
 s3-integrator/0*             maintenance  idle   10.86.73.202         
 smtp-integrator/0*           active       idle   10.86.73.204 
 ```
+
+- Indico plugin custom profile fields demo ([ISD-3338](https://warthogs.atlassian.net/browse/ISD-3338))
+    
+    - (Jay) Have legal name split into legal first and last name
+    - (Jay) CAP details, I dont think we want people to fill these out. Could they be looked? Only editable by admins?
+    - (Jay) Discussion about integrating Launchpad and Indico and HR to manage sprint groups
+        
+        - Not Indico and HRc directly
+        - (Dogay) Will still look at HRc Indico integration to sync some fields, potentially
+        
+    - (Jay) Once the registration is created, can we add sections and move the fields?
+        
+        - (Dogay) In the plugin, I can have them put into a different section.
+            
+            - (Jay) We just want the CAP to be moved
+            - Employee ID should not be editable
+            - We could enable/disable the field as needed to make sure its populated but not visible
+            
+        
+    - (Jay) The script pulls everyone as new users and it takes a few minutes for it to be remembered.
+        
+        - Because the fields use UUIDs, it would be hard to make the script work
+        - (Jay) Other solution, with launchpad solution, we
+        
+    - (Dogay) What are the ops of the script
+        
+        - We use the script to bulk upload registration information
+        - We prefill the data and upload it with the script
+        - Indico does not do bulk registrations
+        - So build registration first, then ask individuals to fill the rest of the fields
+        - Script has function to check the mapping codes, generated field names.
+        
+    - (Jay) We would just need to setup a new template using the new fields. Not a problem.
+    - The web team is helping us, not because it's their mandate, but because we ask very nicely.
