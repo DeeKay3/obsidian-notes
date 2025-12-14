@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "GIT commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "GIT commands"
             }
           },
           {
@@ -224,6 +224,8 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
+    "Juju/Charms/Indico.md",
+    "GIT commands.md",
     "Juju/Charms/Discourse.md",
     "Docker.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
@@ -246,10 +248,8 @@
     "Problems & Fixes.md",
     "Juju/Charms/IAM Bundle.md",
     "Juju/Charms/Gateway-api-integrator.md",
-    "Juju/Charms/Indico.md",
     "Eng Sprint Notes.md",
     "Juju/Charms/PostgreSQL.md",
-    "Juju/Charms/Mattermost.md",
     "Untitled",
     "Untitled.canvas",
     "Linux - Terminal",
