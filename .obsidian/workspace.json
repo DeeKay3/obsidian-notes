@@ -225,8 +225,8 @@
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
     "Juju/Charms/Discourse.md",
-    "GIT commands.md",
     "Juju/Charms/Indico.md",
+    "GIT commands.md",
     "Docker.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
