@@ -1,9 +1,7 @@
 ## Deploy Indico
 Deploy apps:
 ```auto
-juju deploy postgresql-k8s --trust
-juju deploy redis-k8s redis-broker --channel=latest/edge
-juju deploy redis-k8s redis-cache --channel=latest/edge
+
 juju deploy indico
 ```
 Integrations:
