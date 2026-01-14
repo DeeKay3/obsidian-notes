@@ -130,13 +130,13 @@ token-endpoint-auth-method: client_secret_basic
 juju config oauth-external-idp-integrator \
 client_id="ea2f5e11-39dd-4e2f-b049-daf7b025b247" \
 client_secret="2XGpR9qGmJ17ilomDX~OPDMid~" \
-issuer_url="https://dev-trwh15omio3lnvzp.us.auth0.com" \
-authorization_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/authorize" \
-token_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/oauth/token" \
-userinfo_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/userinfo" \
-jwks_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/.well-known/jwks.json" \
-scope="openid email"
-juju config oauth-external-idp-integrator introspection_endpoint="https://dev-trwh15omio3lnvzp.us.auth0.com/userinfo"
+issuer_url="https://login.staging.canonical.com" \
+authorization_endpoint="https://login.staging.canonical.com/oauth2/auth" \
+token_endpoint="https://login.staging.canonical.com/oauth2/token" \
+userinfo_endpoint="https://login.staging.canonical.com/userinfo" \
+jwks_endpoint="https://login.staging.canonical.com/.well-known/jwks.json" \
+scope="openid email" \
+introspection_endpoint="https://login.staging.canonical.com/userinfo"
 
 client-id: ea2f5e11-39dd-4e2f-b049-daf7b025b247
 client-secret: 2XGpR9qGmJ17ilomDX~OPDMid~
