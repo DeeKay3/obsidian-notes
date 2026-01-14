@@ -226,3 +226,11 @@ smtp-integrator/0*           active       idle   10.86.73.204
 git+https://github.com/canonical/canonical-indico-themes.git@854e1d814db1ccb350d8d7413dd4156154802d3f,git+https://github.com/canonical/indico-plugin-event-countdown.git@5303299107db010ccdf6fdc42ca8aa930dfa433b,https://github.com/canonical/flask-multipass-saml-groups/releases/download/1.2.3/flask_multipass_saml_groups-1.2.3-py3-none-any.whl,https://github.com/canonical/canonical-indico-personal-agenda/releases/download/v2.0.0/indico_plugin_personal_agenda-2.0.0-py3-none-any.whl,https://github.com/canonical/indico-custom-profile-fields/releases/download/1.1.0/indico_plugin_custom_profile_fields-1.1.0-py3-none-any.whl
 
 juju deploy indico --channel=latest/edge --revision=295 --config external_plugins=git+https://github.com/canonical/canonical-indico-themes.git@854e1d814db1ccb350d8d7413dd4156154802d3f,git+https://github.com/canonical/indico-plugin-event-countdown.git@5303299107db010ccdf6fdc42ca8aa930dfa433b,https://github.com/canonical/flask-multipass-saml-groups/releases/download/1.2.3/flask_multipass_saml_groups-1.2.3-py3-none-any.whl,https://github.com/canonical/canonical-indico-personal-agenda/releases/download/v2.0.0/indico_plugin_personal_agenda-2.0.0-py3-none-any.whl,https://github.com/canonical/indico-custom-profile-fields/releases/download/1.1.0/indico_plugin_custom_profile_fields-1.1.0-py3-none-any.whl
+
+export SERVICE_SCHEME="http"
+export SERVICE_HOSTNAME="indico.local"
+export INDICO_CONF="/etc/indico.conf"  # Ensure it points to the right config if needed
+export CELERY_BROKER="redis://redis-broker-0.redis-broker-endpoints.indicotest.svc.cluster.local:6379"
+export REDIS_CACHE_URL="redis://redis-cache-0.redis-cache-endpoints.indicotest.svc.cluster.local:6379"
+
+indico shell
