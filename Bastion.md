@@ -18,7 +18,7 @@ Then to use proxy inside a container ( for example using pip, in an `stg-indico`
 HTTPS_PROXY=http://squid.ps6.internal:3128 pip install [...]
 ```
 
-## FOR INDICO
+## FOR INDICO/DISCOURSE
 When running "terraform init --upgrade", you need to set proxy. Do this:
 ```
 https_proxy=http://squid.internal:3128 NO_PROXY=radosgw.ps6.canonical.com  terraform init -upgrade -reconfigure

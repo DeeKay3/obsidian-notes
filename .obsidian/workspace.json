@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "Juju/Charms/Discourse.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "Discourse"
             }
           },
           {
@@ -210,6 +210,9 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
+    "Bastion.md",
+    "Juju/Charms/Discourse.md",
+    "Juju/Charms/Indico.md",
     "GIT commands.md",
     "Important Links.md",
     "Useful Tools.md",
@@ -219,7 +222,6 @@
     "Problems & Fixes.md",
     "Multipass.md",
     "Docker.md",
-    "Bastion.md",
     "Achievements for Promotion Cycle.md",
     "Kubernetes/Common Commands.md",
     "Juju/Juju Doctor tutorial.md",
@@ -231,8 +233,6 @@
     "Juju/General/Adding Canonical k8s as Cloud.md",
     "Juju/Charms/IAM Bundle.md",
     "Juju/Charms/Gateway-api-integrator.md",
-    "Juju/Charms/Discourse.md",
-    "Juju/Charms/Indico.md",
     "Vale.md",
     "Eng Sprint Notes.md",
     "Juju/Charms/PostgreSQL.md",
