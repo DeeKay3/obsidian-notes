@@ -151,3 +151,5 @@ redirect-uris: '[''https://discourse.staging.ubuntu.com/auth/oidc/callback'']'
 response-types: '[''code'']'
 scope: '[''openid'', ''email'']'
 token-endpoint-auth-method: client_secret_basic
+
+/.well-known/openid-configuration
