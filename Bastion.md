@@ -11,7 +11,7 @@ load_creds openstack
 
 In a container in bastion, you'll have to use proxy. Find the proxy settings:
 ```
-juju model_config
+juju model-config
 ```
 Then to use proxy inside a container ( for example using pip, in an `stg-indico` container in PS6 ):
 ```
