@@ -28,3 +28,7 @@ https_proxy=http://squid.internal:3128 NO_PROXY=radosgw.ps6.canonical.com  terra
 https://code.launchpad.net/canonical-is-internal-proxy-configs
 https://canonical-information-systems-documentation.readthedocs-hosted.com/en/latest/explanation/prodstack/proxy/
 https://canonical-information-systems-documentation.readthedocs-hosted.com/en/latest/how-to/prodstack/proxy/
+
+## ADDING SECRET TO VAULT AND USING IT
+
+https://canonical-information-systems-documentation.readthedocs-hosted.com/en/latest/products/devopsenv/tutorial/using-vault/

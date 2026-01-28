@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastion.md",
+                "file": "Kubernetes/Common Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bastion"
+              "title": "Common Commands"
             }
           },
           {
@@ -210,6 +210,8 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
+    "Bastion.md",
+    "Juju/Charms/Discourse.md",
     "Docker.md",
     "Snap.md",
     "Untitled.md",
@@ -217,8 +219,6 @@
     "Useful Tools.md",
     "Juju/Charms/Indico.md",
     "Juju/General/IS Firewall Rules.md",
-    "Juju/Charms/Discourse.md",
-    "Bastion.md",
     "GIT commands.md",
     "Important Links.md",
     "TODO.md",
