@@ -234,3 +234,7 @@ export CELERY_BROKER="redis://redis-broker-0.redis-broker-endpoints.indicotest.s
 export REDIS_CACHE_URL="redis://redis-cache-0.redis-cache-endpoints.indicotest.svc.cluster.local:6379"
 
 indico shell
+
+## Make Indico accept both normal logins and SAML/OIDC
+In staging/prod: By default, Indico only accepts SAML logins when SAML is configured. To make it so that normal logins are also accepted in staging for testing:
+1- 
