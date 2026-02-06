@@ -236,5 +236,28 @@ export REDIS_CACHE_URL="redis://redis-cache-0.redis-cache-endpoints.indicotest.s
 indico shell
 
 ## Make Indico accept both normal logins and SAML/OIDC
-In staging/prod: By default, Indico only accepts SAML logins when SAML is configured. To make it so that normal logins are also accepted in staging for testing:
-1- 
+In staging/prod: By default, Indico only accepts SAML logins when SAML is configured. To make it so that normal logins are also accepted in staging for testing ( do in all units ):
+1- SSH into indico container:
+```
+juju ssh --container indico indico/0 bash
+```
+2- Install nano if not installed already:
+```
+apt update && apt install nano
+```
+3- Open indico.conf:
+```
+nano etc/indico.conf
+```
+4- Find `LOCAL_IDENTITIES` and change it to `True`
+```
+LOCAL_IDENTITIES = True
+```
+5- Reload uWSGI:
+```
+touch etc/uwsgi.ini
+```
+6- Restart pebble:
+```
+pebble restart indico
+```

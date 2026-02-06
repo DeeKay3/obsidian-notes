@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bastion.md",
+                "file": "Juju/Charms/Indico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bastion"
+              "title": "Indico"
             }
           },
           {
@@ -210,6 +210,7 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
+    "Bastion.md",
     "Juju/Charms/Indico.md",
     "Juju/Charms/Mattermost.md",
     "Juju/Juju Doctor tutorial.md",
@@ -231,7 +232,6 @@
     "Multipass.md",
     "Important Links.md",
     "GIT commands.md",
-    "Bastion.md",
     "Docker.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/Charms/IAM Bundle.md",
