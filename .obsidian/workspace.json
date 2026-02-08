@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "Docker"
             }
           },
           {
@@ -210,9 +210,10 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
-    "Bastion.md",
     "Juju/Charms/Indico.md",
+    "Juju/Charms/IAM Bundle.md",
     "Juju/Charms/Mattermost.md",
+    "Bastion.md",
     "Juju/Juju Doctor tutorial.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
@@ -234,7 +235,6 @@
     "GIT commands.md",
     "Docker.md",
     "Juju/Charms/PostgreSQL.md",
-    "Juju/Charms/IAM Bundle.md",
     "Juju/Charms/Gateway-api-integrator.md",
     "Untitled",
     "Untitled.canvas",

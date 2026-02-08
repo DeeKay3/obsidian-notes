@@ -1,4 +1,9 @@
 ### Push image to Docker and Attach
+Build docker image from dockerfile (from the same folder):
+```
+docker build .
+```
+
 Create Docker registry if needed:
 ```
 docker run -d -p 32000:5000 --name registry registry:2
