@@ -1,8 +1,15 @@
-### Push image to Docker and Attach
+### Build from Dockerfile and push
+
 Build docker image from dockerfile (from the same folder):
 ```
-docker build .
+docker build -t <appname>:<apptag> . 
 ```
+Push to the registry ( make sure to start registry first and check port, example is 32000):
+```
+docker tag <appname>:<apptag> localhost:32000/myapp:latest
+docker push localhost:32000/<appname>:<apptag>
+```
+### Push image to Docker and Attach
 
 Create Docker registry if needed:
 ```
