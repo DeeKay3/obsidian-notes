@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Charm development notes.md",
+                "file": "Juju/Charms/Mattermost.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Charm development notes"
+              "title": "Mattermost"
             }
           },
           {
@@ -210,8 +210,9 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
-    "Juju/Charms/Mattermost.md",
+    "Juju/Charms/Discourse.md",
     "Juju/Charms/Charm development notes.md",
+    "Juju/Charms/Mattermost.md",
     "Docker.md",
     "GIT commands.md",
     "Vale.md",
@@ -223,7 +224,6 @@
     "Important Links.md",
     "Multipass.md",
     "Kubernetes/Common Commands.md",
-    "Juju/Charms/Discourse.md",
     "Juju/Charms/Indico.md",
     "Juju/Charms/IAM Bundle.md",
     "Bastion.md",
