@@ -31,9 +31,9 @@ juju trust postgresql-k8s --scope=cluster
 juju deploy tls-certificates-operator
 # Using self-signed certificates for demonstration purposes only.
 juju config tls-certificates-operator generate-self-signed-certificates="true" ca-common-name="Test CA"
-juju relate postgresql-k8s tls-certificates-operator
+juju integrate postgresql-k8s tls-certificates-operator
 # And now relate postgresql-k8s to mattermost-k8s
-juju relate mattermost-k8s postgresql-k8s:db
+juju integrate mattermost-k8s postgresql-k8s:db
 ```
 # Expose
 ```bash
