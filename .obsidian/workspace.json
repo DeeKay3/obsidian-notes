@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "b37ea14babbe41b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Juju/Charms/Indico.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Indico"
+            }
+          },
+          {
             "id": "6769b8779602b809",
             "type": "leaf",
             "state": {
@@ -211,6 +225,7 @@
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
     "Juju/Charms/Indico.md",
+    "Indico CLI & eatool.md",
     "Linux - Terminal/Curl Notes.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/Charms/Mattermost.md",
@@ -232,7 +247,6 @@
     "Docker.md",
     "GIT commands.md",
     "Important Links.md",
-    "Indico CLI & eatool.md",
     "Multipass.md",
     "Problems & Fixes.md",
     "Snap.md",
