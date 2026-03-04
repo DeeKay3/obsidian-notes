@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Useful Tools.md",
+                "file": "Indico CLI & eatool.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Useful Tools"
+              "title": "Indico CLI & eatool"
             }
           },
           {
@@ -210,13 +210,14 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
+    "Useful Tools.md",
+    "Indico CLI & eatool.md",
     "Juju/Charms/Mattermost.md",
     "Juju/Charms/Discourse.md",
     "Juju/Charms/Charm development notes.md",
     "Docker.md",
     "GIT commands.md",
     "Vale.md",
-    "Useful Tools.md",
     "Untitled.md",
     "TODO.md",
     "Snap.md",
@@ -235,7 +236,6 @@
     "Juju/General/IS Firewall Rules.md",
     "Juju/General/Terraform.md",
     "Juju/General/Testing.md",
-    "Achievements for Promotion Cycle.md",
     "Untitled",
     "Untitled.canvas",
     "Linux - Terminal",
