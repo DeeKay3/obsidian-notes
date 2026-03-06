@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Indico CLI & eatool.md",
+                "file": "GIT commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico CLI & eatool"
+              "title": "GIT commands"
             }
           },
           {
@@ -224,8 +224,8 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
-    "Juju/Charms/Indico.md",
     "Indico CLI & eatool.md",
+    "Juju/Charms/Indico.md",
     "Linux - Terminal/Curl Notes.md",
     "Juju/Charms/PostgreSQL.md",
     "Juju/Charms/Mattermost.md",

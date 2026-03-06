@@ -14,3 +14,7 @@ git checkout {branch-name}
 git merge main #Follow commands here
 git push origin {branch-name}
 ```
+### Get origin URL of the repo
+```
+git ls-remote --get-url origin
+```
