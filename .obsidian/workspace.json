@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GIT commands.md",
+                "file": "Juju/Charms/Indico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GIT commands"
+              "title": "Indico"
             }
           },
           {
@@ -225,6 +225,7 @@
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
     "Indico CLI & eatool.md",
+    "GIT commands.md",
     "Juju/Charms/Indico.md",
     "Linux - Terminal/Curl Notes.md",
     "Juju/Charms/PostgreSQL.md",
@@ -245,7 +246,6 @@
     "Achievements for Promotion Cycle.md",
     "Bastion.md",
     "Docker.md",
-    "GIT commands.md",
     "Important Links.md",
     "Multipass.md",
     "Problems & Fixes.md",
