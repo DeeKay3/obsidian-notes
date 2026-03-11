@@ -53,6 +53,6 @@ juju trust postgresql-k8s --scope=cluster
 juju deploy tls-certificates-operator
 juju config tls-certificates-operator generate-self-signed-certificates="true" ca-common-name="Test CA"
 juju integrate postgresql-k8s tls-certificates-operator
-juju deploy ./mattermost-k8s_ubuntu-20.04-amd64.charm --config mattermost_image_path=localhost:32000/mattermostnew
+juju deploy ./mattermost-k8s_amd64.charm --resource app-image=localhost:32000/mattermostnew
 juju integrate mattermost-k8s postgresql-k8s:db
 ```
