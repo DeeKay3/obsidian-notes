@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/Indico.md",
+                "file": "Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico"
+              "title": "Docker"
             }
           },
           {
@@ -224,12 +224,12 @@
   },
   "active": "6691fdbc5d0ffeb1",
   "lastOpenFiles": [
+    "Juju/Charms/Mattermost.md",
+    "Juju/Charms/Indico.md",
     "Indico CLI & eatool.md",
     "GIT commands.md",
-    "Juju/Charms/Indico.md",
     "Linux - Terminal/Curl Notes.md",
     "Juju/Charms/PostgreSQL.md",
-    "Juju/Charms/Mattermost.md",
     "Juju/Charms/IAM Bundle.md",
     "Juju/Charms/Discourse.md",
     "Juju/Charms/Charm development notes.md",
