@@ -56,3 +56,6 @@ juju integrate postgresql-k8s tls-certificates-operator
 juju deploy ./mattermost-k8s_amd64.charm --resource app-image=localhost:32000/mattermostnew
 juju integrate mattermost-k8s postgresql-k8s:db
 ```
+```
+juju attach-resource mattermost-k8s app-image=localhost:32000/mattermostnew
+```
