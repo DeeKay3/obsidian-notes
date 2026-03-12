@@ -59,3 +59,16 @@ juju integrate mattermost-k8s:postgresql postgresql-k8s
 ```
 juju attach-resource mattermost-k8s app-image=localhost:32000/mattermostnew
 ```
+```
+sudo rockcraft.skopeo --insecure-policy copy   --dest-tls-verify=false   oci-archive:mattermost_10.11.6_amd64.rock   docker://localhost:32000/mattermostnew:latest
+```
+
+1- service name  go, delete microk8s ctr images list:
+```
+sudo microk8s ctr images list | awk '{print $1}' | xargs microk8s ctr images delete
+```
+2- working directory should be app instead of mattermost
+3- wrap env variables into new names if it doesn't work, like:
+```
+bash -c 'export MATTERMOST_A...=POSTGRES_A...; exec mattermost'
+```
