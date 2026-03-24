@@ -48,13 +48,7 @@ juju config mattermost-k8s mattermost_image_path=localhost:32000/mattermost:v2
 
 ## Temp Command Lines 
 ```
-juju deploy postgresql-k8s
-juju trust postgresql-k8s --scope=cluster
-juju deploy tls-certificates-operator
-juju config tls-certificates-operator generate-self-signed-certificates="true" ca-common-name="Test CA"
-juju integrate postgresql-k8s tls-certificates-operator
-juju deploy ./mattermost-k8s_amd64.charm --resource app-image=localhost:32000/mattermostnew
-juju integrate mattermost-k8s:postgresql postgresql-k8s
+juju attach-resource mattermost-k8s app-image=localhost:32000/mattermostnew
 ```
 ```
 juju attach-resource mattermost-k8s app-image=localhost:32000/mattermostnew
