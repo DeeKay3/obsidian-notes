@@ -66,3 +66,11 @@ sudo microk8s ctr images list | awk '{print $1}' | xargs microk8s ctr images del
 ```
 bash -c 'export MATTERMOST_A...=POSTGRES_A...; exec mattermost'
 ```
+
+```
+sudo rockcraft.skopeo --insecure-policy copy   --dest-tls-verify=false   oci-archive:mattermost_10.11.6-1_amd64.rock   docker://localhost:32000/mattermostnew:latest
+
+```
+```
+sudo docker run -d -p 32000:5000 --name registry registry:2
+```
