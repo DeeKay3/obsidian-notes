@@ -23,3 +23,4 @@ smtp-integrator:smtp-legacy           indico:smtp-legacy                    smtp
 
 - Make sure correct version is released in stable for the Indico charm
 - Make sure you test the upgrade in the Juju version of prod. Prod was 2.9.49, we only tested in Juju 3 in local and staging
+- 
