@@ -1,4 +1,5 @@
 pip install --upgrade -c /tmp/constraints-4bc0ea67410e6465.txt git+https://github.com/canonical/canonical-indico-themes.git@854e1d814db1ccb350d8d7413dd4156154802d3f git+https://github.com/canonical/indico-plugin-event-countdown.git@5303299107db010ccdf6fdc42ca8aa930dfa433b https://github.com/canonical/flask-multipass-saml-groups/releases/download/1.2.3/flask_multipass_saml_groups-1.2.3-py3-none-any.whl https://github.com/canonical/canonical-indico-personal-agenda/releases/download/v2.0.0/indico_plugin_personal_agenda-2.0.0-py3-none-any.whl https://github.com/canonical/indico-custom-profile-fields/releases/download/1.2.1/indico_plugin_custom_profile_fields-1.2.1-py3-none-any.whl
+```
 
 Relation provider                     Requirer                              Interface            Type     Message
 indico:grafana-dashboard              grafana-dashboards:grafana-dashboard  grafana_dashboard    regular  
@@ -16,6 +17,7 @@ s3-integrator:s3-integrator-peers     s3-integrator:s3-integrator-peers     s3-i
 saml-integrator:saml                  indico:saml                           saml                 regular  
 smtp-integrator:smtp-legacy           indico:smtp-legacy                    smtp                 regular 
 
+```
 
 ## FOR POST MORTEM
 
