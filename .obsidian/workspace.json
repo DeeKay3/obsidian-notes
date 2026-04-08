@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vale.md",
+                "file": "TEMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vale"
+              "title": "TEMP"
             }
           }
         ],
@@ -238,6 +238,7 @@
   },
   "active": "d79aff1380762bea",
   "lastOpenFiles": [
+    "Vale.md",
     "Useful Tools.md",
     "Untitled.md",
     "TODO.md",
@@ -256,7 +257,6 @@
     "Multipass.md",
     "Problems & Fixes.md",
     "Snap.md",
-    "Vale.md",
     "Docker.md",
     "Juju/Charms/Gateway-api-integrator.md",
     "GIT commands.md",
