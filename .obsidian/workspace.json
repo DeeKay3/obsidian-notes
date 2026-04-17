@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TEMP.md",
+                "file": "Juju/General/Indico PS7 env creation stuff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TEMP"
+              "title": "Indico PS7 env creation stuff"
             }
           }
         ],
@@ -238,17 +238,20 @@
   },
   "active": "d79aff1380762bea",
   "lastOpenFiles": [
+    "Juju/Charms/Mattermost.md",
+    "Juju/General/Indico PS7 env creation stuff.md",
+    "Juju/General/Adding MicroK8s as Cloud.md",
+    "Juju/General/Adding Canonical k8s as Cloud.md",
+    "Juju/General/Testing.md",
+    "TEMP.md",
     "Vale.md",
     "Useful Tools.md",
     "Untitled.md",
     "TODO.md",
-    "TEMP.md",
     "Juju/Charms/Indico.md",
     "Bastion.md",
-    "Juju/Charms/Mattermost.md",
     "Indico CLI & eatool.md",
     "Juju/General/IS Firewall Rules.md",
-    "Juju/General/Testing.md",
     "Juju/General/Terraform.md",
     "Juju/General/Deploy local packed charm.md",
     "Juju/General/Connecting to VPN with openvpn.md",
@@ -261,9 +264,6 @@
     "Juju/Charms/Gateway-api-integrator.md",
     "GIT commands.md",
     "Juju/Charms/Discourse.md",
-    "Juju/Charms/IAM Bundle.md",
-    "Juju/Charms/PostgreSQL.md",
-    "Achievements for Promotion Cycle.md",
     "Untitled",
     "Untitled.canvas",
     "Linux - Terminal",
