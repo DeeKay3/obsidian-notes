@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/General/Indico PS7 env creation stuff.md",
+                "file": "Juju/Charms/Mattermost.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indico PS7 env creation stuff"
+              "title": "Mattermost"
             }
           }
         ],
@@ -238,10 +238,10 @@
   },
   "active": "d79aff1380762bea",
   "lastOpenFiles": [
-    "Juju/Charms/Mattermost.md",
-    "Juju/General/Indico PS7 env creation stuff.md",
     "Juju/General/Adding MicroK8s as Cloud.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
+    "Juju/General/Indico PS7 env creation stuff.md",
+    "Juju/Charms/Mattermost.md",
     "Juju/General/Testing.md",
     "TEMP.md",
     "Vale.md",
