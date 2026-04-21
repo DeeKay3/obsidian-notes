@@ -74,3 +74,27 @@ sudo rockcraft.skopeo --insecure-policy copy   --dest-tls-verify=false   oci-arc
 ```
 sudo docker run -d -p 32000:5000 --name registry registry:2
 ```
+
+## Ingress with traefik-k8s
+```
+juju deploy traefik-k8s --trust --channel=latest/stable
+juju integrate mattermost-k8s:ingress traefik-k8s:ingress
+```
+### Path routing (couldn't make it work yet)
+```
+juju config traefik-k8s external_hostname=testchat.mylocalmm.com
+juju config traefik-k8s routing_mode=path
+```
+### Subdomain routing
+```
+juju config traefik-k8s routing_mode=subdomain
+juju config traefik-k8s external_hostname=mylocalmm.com
+```
+Also, get service LoadBalancer IP of traefik from:
+```
+microk8s kubectl get svc -n {model_name} -l app.kubernetes.io/name=traefik-k8s
+```
+And add the following to the etc/hosts 
+```
+{loadBalancer externalIP} {model_name}-mattermost-k8s.mylocalmm.com
+```
