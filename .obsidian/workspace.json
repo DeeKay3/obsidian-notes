@@ -238,8 +238,9 @@
   },
   "active": "d79aff1380762bea",
   "lastOpenFiles": [
-    "Juju/Charms/Mattermost.md",
+    "Docker.md",
     "Juju/General/Indico PS7 env creation stuff.md",
+    "Juju/Charms/Mattermost.md",
     "Juju/Charms/Indico.md",
     "Juju/General/MinIO microk8s.md",
     "Juju/Charms/Gateway-api-integrator.md",
@@ -262,7 +263,6 @@
     "Multipass.md",
     "Problems & Fixes.md",
     "Snap.md",
-    "Docker.md",
     "GIT commands.md",
     "Untitled",
     "Untitled.canvas",

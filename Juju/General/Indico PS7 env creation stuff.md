@@ -3,3 +3,6 @@ https://concordia.canonical.com/tickets/ISREQ-1461
 https://github.com/canonical/infrastructure-services/pull/12864
 https://github.com/canonical/platform-engineering-deployments/tree/main/deployments/indico/ps7/production
 https://github.com/canonical/platform-engineering-deployment-modules
+
+DB
+https://portal.admin.canonical.com/requests/request/8933
