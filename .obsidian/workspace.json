@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Juju/Charms/SMTP Integrator.md",
+                "file": "Bastion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SMTP Integrator"
+              "title": "Bastion"
             }
           }
         ],
@@ -238,19 +238,20 @@
   },
   "active": "d79aff1380762bea",
   "lastOpenFiles": [
+    "Juju/General/Indico PS7 env creation stuff.md",
     "Juju/Charms/Mattermost.md",
-    "Juju/Charms/Indico.md",
+    "GIT commands.md",
+    "Bastion.md",
     "Juju/Charms/SMTP Integrator.md",
+    "Juju/Charms/Indico.md",
     "Juju/General/Testing.md",
     "Problems & Fixes.md",
     "Indico CLI & eatool.md",
     "Important Links.md",
-    "GIT commands.md",
     "Juju/General/Adding Canonical k8s as Cloud.md",
     "Juju/General/Connecting to VPN with openvpn.md",
     "Juju/General/MinIO microk8s.md",
     "Juju/General/IS Firewall Rules.md",
-    "Juju/General/Indico PS7 env creation stuff.md",
     "Juju/General/Deploy local packed charm.md",
     "Docker.md",
     "Juju/Charms/Gateway-api-integrator.md",
@@ -260,7 +261,6 @@
     "Useful Tools.md",
     "Untitled.md",
     "TODO.md",
-    "Bastion.md",
     "Juju/General/Terraform.md",
     "Linux - Terminal/Curl Notes.md",
     "Multipass.md",
