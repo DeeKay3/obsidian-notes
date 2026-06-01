@@ -32,3 +32,4 @@ https://canonical-information-systems-documentation.readthedocs-hosted.com/en/la
 ## ADDING SECRET TO VAULT AND USING IT
 
 https://canonical-information-systems-documentation.readthedocs-hosted.com/en/latest/products/devopsenv/tutorial/using-vault/
+
